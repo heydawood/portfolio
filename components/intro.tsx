@@ -7,7 +7,7 @@ export default function Intro() {
       <div className='mt-2 flex-1 md:mt-0'>
         <h1 className='title no-underline'>Hey, I&#39;m Dawood.</h1>
         <p className='mt-3 font-light text-muted-foreground'>
-          I&#39;m a software engineer based in Lahore, Pakistan. I&#39;m
+        Welcome to my digital nook. I&#39;m a software engineer based in Lahore, Pakistan. I&#39;m
           passionate about learning new technologies and sharing knowledge with
           others.
         </p>
@@ -16,7 +16,7 @@ export default function Intro() {
         <Image
           className='flex-1 rounded-lg grayscale'
           src={authorImage}
-          alt='Hamed Bahram'
+          alt='Dawood Faisal'
           width={175}
           height={175}
           priority
