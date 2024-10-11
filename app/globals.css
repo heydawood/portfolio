@@ -80,6 +80,7 @@
   }
   body {
     @apply bg-background text-foreground;
+    
   }
 
   .title {
@@ -101,4 +102,8 @@
   .prose code span {
     @apply font-medium;
   }
+}
+
+html{
+  scroll-behavior: smooth;
 }
