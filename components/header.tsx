@@ -18,9 +18,9 @@ export default function Header() {
           <li className='transition-colors hover:text-foreground'>
             <Link href='/projects'>Projects</Link>
           </li>
-          <li className='transition-colors hover:text-foreground'>
+          {/* <li className='transition-colors hover:text-foreground'>
             <Link href='/contact'>Contact</Link>
-          </li>
+          </li> */}
           <li className='transition-colors hover:text-foreground'>
             <Link target='_blank' href='https://docs.google.com/document/d/1ALYuRqWIFS_ikUrHXb1k3_fFyBlc9pm8_x_rZaQ25jk/edit?usp=sharing'>Resume</Link>
           </li>
