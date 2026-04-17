@@ -28,7 +28,7 @@ export default function RootLayout({
     <html lang='en' suppressHydrationWarning>
       <body
         className={cn(
-          'flex min-h-screen flex-col font-sans antialiased',
+          'flex min-h-screen flex-col font-sans antialiased bg-background text-foreground transition-colors duration-500',
           inter.variable,
           playfair.variable
         )}

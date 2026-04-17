@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -78,10 +81,10 @@
   * {
     @apply border-border;
   }
-  body {
-    @apply bg-background text-foreground;
-    
-  }
+ body {
+  @apply bg-background text-foreground;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
 
   .title {
     @apply font-serif text-3xl font-bold underline decoration-border/75 decoration-2 underline-offset-8;
@@ -103,7 +106,7 @@
     @apply font-medium;
   }
 }
-
-html{
-  scroll-behavior: smooth;
+.card, .section, .container {
+  @apply transition-colors duration-500;
 }
+
