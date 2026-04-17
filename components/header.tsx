@@ -22,7 +22,7 @@ export default function Header() {
             <Link href='/contact'>Contact</Link>
           </li> */}
           <li className='transition-colors hover:text-foreground'>
-            <Link target='_blank' href='https://docs.google.com/document/d/1ALYuRqWIFS_ikUrHXb1k3_fFyBlc9pm8_x_rZaQ25jk/edit?usp=sharing'>Resume</Link>
+            <Link target='_blank' href='https://docs.google.com/document/d/17PQB_ZxlPg893cNOOVnWNycXEihkETkXBw4hW-iKm9k/edit?tab=t.0'>Resume</Link>
           </li>
         </ul>
 
