@@ -3,7 +3,7 @@ import { Inter, Playfair_Display } from 'next/font/google'
 
 import { cn } from '@/lib/utils'
 
-// @ts-expect-error
+
 import './globals.css'
 import Providers from '@/components/providers'
 import Header from '@/components/header'
