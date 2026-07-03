@@ -3,6 +3,7 @@ import { Inter, Playfair_Display } from 'next/font/google'
 
 import { cn } from '@/lib/utils'
 
+// @ts-ignore
 import './globals.css'
 import Providers from '@/components/providers'
 import Header from '@/components/header'
@@ -16,7 +17,7 @@ const playfair = Playfair_Display({
 
 export const metadata: Metadata = {
   title: 'Dawood Faisal',
-  description: "Dawood is a Full Stack developer with expertise in MERN Stack."
+  description: "Dawood Faisal is a Full Stack Software Engineer specializing in React, TypeScript, Node.js, Express, MongoDB, AI Engineering and RAG applications. View projects, experience and contact information."
 }
 
 export default function RootLayout({
